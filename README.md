@@ -35,31 +35,12 @@ This is a simple web-based dice rolling application that displays the result of 
    - Enable static website hosting.
    - Set the index document to `index.html`.
 
-4. **Set Permissions**:
-   - Update the bucket policy to make the contents publicly accessible.
-   - Use the following policy (replace `YOUR_BUCKET_NAME` with your bucket name):
-
-     ```json
-     {
-         "Version": "2012-10-17",
-         "Statement": [
-             {
-                 "Sid": "PublicReadGetObject",
-                 "Effect": "Allow",
-                 "Principal": "*",
-                 "Action": "s3:GetObject",
-                 "Resource": "arn:aws:s3:::YOUR_BUCKET_NAME/*"
-             }
-         ]
-     }
-     ```
-
-5. **Access Your Website**:
+4. **Access Your Website**:
    - Use the S3 bucket URL to access your deployed site.
 
 ## Usage
 
-1. Open the `index.html` file in a web browser.
+1. Open the [Dice Roll website](https://gmkdicerollbucket.s3.eu-west-1.amazonaws.com/Dice+game/dicee.html) in a web browser.
 2. Click the "Roll Dice" button.
 3. See the result of the dice roll and the winner message.
 
@@ -70,15 +51,6 @@ This is a simple web-based dice rolling application that displays the result of 
 - `script.js`: The JavaScript file containing the dice roll logic.
 - `images/`: Directory containing the dice images.
 
-## Example
-
-Here’s a preview of what the web page looks like:
-
-![Dice Roll Example]([images/dice-example.png](https://gmkdicerollbucket.s3.eu-west-1.amazonaws.com/Dice+game/dicee.html))
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 

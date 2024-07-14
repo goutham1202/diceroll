@@ -46,9 +46,9 @@ This is a simple web-based dice rolling application that displays the result of 
 
 ## Files
 
-- `index.html`: The main HTML file containing the structure of the web page.
+- `dicee.html`: The main HTML file containing the structure of the web page.
 - `styles.css`: The CSS file for styling the web page.
-- `script.js`: The JavaScript file containing the dice roll logic.
+- `dice.js`: The JavaScript file containing the dice roll logic.
 - `images/`: Directory containing the dice images.
 
 

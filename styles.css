@@ -3,10 +3,19 @@
   margin: auto;
   text-align: center;
 }
+
+.dice-container {
+  display: flex;
+  justify-content: center; /* Center the dice horizontally */
+  align-items: center; /* Align the dice vertically */
+  gap: 100px; /* Space between the dice images */
+}
+
 .dice {
   text-align: center;
   display: inline-block;
 }
+
 .roll {
   background-color: red;
   color: white;
@@ -15,7 +24,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 20px 0; /* Margin on top and bottom */
   cursor: pointer;
   border-radius: 4px;
 }
@@ -23,24 +32,33 @@
 .roll:hover {
   background-color: darkred;
 }
+
 body {
-  background-color: #25354f;
+  background-color: #6a1b8d;
+  margin: 0;
+  font-family: Arial, sans-serif; /* Added a default font family */
 }
+
 h1 {
-  margin: 30px;
+  margin: 30px 0; /* Margin on top and bottom */
   font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
+  text-shadow: 5px 0 #000000;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: #20072c;
 }
+
 p {
   font-size: 2rem;
-  color: #4ECCA3;
+  color: #aa4ecc;
   font-family: 'Indie Flower', cursive;
+  margin-bottom: 20px; /* Space below the paragraph */
 }
+
 img {
-  width: 80%;
+  width: 275px; /* Adjusted the size of the images */
+  height: auto; /* Maintains aspect ratio */
 }
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;

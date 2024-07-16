@@ -40,7 +40,7 @@ This is a simple web-based dice rolling application that displays the result of 
 
 ## Usage
 
-1. Open the [Dice Roll website](https://gmkdicerollbucket.s3.eu-west-1.amazonaws.com/Dice+game/dicee.html) in a web browser.
+1. Open the [Dice Roll website](https://gmkdicerollbucket.s3.eu-west-1.amazonaws.com/diceroll/dicee.html) in a web browser.
 2. Click the "Roll Dice" button.
 3. See the result of the dice roll and the winner message.
 
